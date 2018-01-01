@@ -1,6 +1,9 @@
 [submodule "baibai-server"]
+	path = baibai-server
 	url = https://github.com/moppymopperson/baibai-server
 [submodule "baibai-trader"]
+	path = baibai-trader
 	url = https://github.com/moppymopperson/baibai-trader
 [submodule "baibai-watcher"]
+	path = baibai-watcher
 	url = https://github.com/moppymopperson/baibai-watcher
