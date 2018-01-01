@@ -1,4 +1,4 @@
-# Bit-BaiBai
+# BitBaiBai
 
 Bit-BaiBai is a combination of three tools that work together to automate the
 buying and selling of crypto currencies.
@@ -32,6 +32,13 @@ By default Bit-BaiBai will run in practice mode. Buys and sells will be
 simulated, but not actually executed. When you are ready to take the plunge,
 provide credentials to the market you trade on and choose an algorithm to go
 live.
+
+_keyfile.txt_
+
+```
+keykeykeykey
+secretsecretsecretsecret
+```
 
 #### Kraken
 
@@ -141,9 +148,9 @@ class SomeMarket(Authenticator):
 
 # Testing and Validation
 
-In this context bugs have serious repurcussions, so all `Algorith` and `Market`
-classes should have 100% unit test coverage. Do not submit a pull requet without
-unit tests. Test can be run from the `baibai-trader` directory with
+In this context bugs have serious repercussions, so all `Algorithm` and `Market`
+classes should have 100% unit test coverage. Please submit pull requests with
+unit tests. Tests can be run from the `baibai-trader` directory with
 `nosetests tests/`.
 
 When developing new algorithms, it is helpful to validate their performance
