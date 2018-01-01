@@ -1,0 +1,6 @@
+[submodule "baibai-server"]
+	url = https://github.com/moppymopperson/baibai-server
+[submodule "baibai-trader"]
+	url = https://github.com/moppymopperson/baibai-trader
+[submodule "baibai-watcher"]
+	url = https://github.com/moppymopperson/baibai-watcher
