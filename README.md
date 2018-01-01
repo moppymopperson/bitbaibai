@@ -21,7 +21,7 @@ Pi server, so care has been taken to ensure it runs on both x86 and arm7.
 
 1. Install docker and docker-compose
 2. Clone the project and all it's subprojects
-   `git clone --recursive -j8 git://github.com/foo/bar.git`
+   `git clone --recursive https://github.com/moppymopperson/bitbaibai`
 3. Enter the root directory and start docker-compose
    `docker-compose up`
 4. In a web browser, navigate to `localhost:3000` to watch your bot
